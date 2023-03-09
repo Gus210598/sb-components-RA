@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "typings": "dist/index.d.ts",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "url": "https://github.com/Gus210598/sb-components-RA",
     "type": "git"
@@ -35,7 +35,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  
+
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "yarn clean && tsc && yarn copy-files",
