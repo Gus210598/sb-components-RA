@@ -35,6 +35,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "yarn clean && tsc && yarn copy-files",
